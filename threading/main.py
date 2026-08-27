@@ -10,7 +10,7 @@ threads = [] # A list to store each thread
 
 def print_thread():
     current = threading.current_thread()
-    print(f"This function is running on thread: {current}")
+    print(f"This function is running on thread {current.name} with identifier {current.ident}.")
 
 for i in range(1, thread_count + 1):
     # target represents the desired function to run on the specified thread
