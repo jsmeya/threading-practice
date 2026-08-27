@@ -9,7 +9,7 @@ thread_count = 5 # Desired number of threads for testing
 threads = [] # A list to store each thread
 
 def print_thread(i: int):
-    print(f"This function is running on thread: {str(i)}")
+    print(f"This function is running on thread: {i}")
 
 for i in range(1, thread_count + 1):
     # target represents the desired function to run on the specified thread
