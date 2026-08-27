@@ -6,6 +6,8 @@ A repo for personal practice of threading concepts.
 
 <br>
 
+Here's how I explored these concepts in the project itself:
+
 ### Basic Threading
 * Utilizes Python's ```threading``` module for multithreading.
 * Implements basic print functions for testing. No additional functionality or checks.
