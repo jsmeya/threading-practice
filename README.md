@@ -10,5 +10,5 @@ A repo for personal practice of threading concepts.
 <br>
 
 ### Mutual Exclusion
-* Introduces the concept of mutual exclusion through a test banking platform.
+* Introduces the concept of mutual exclusion through a banking transfer program.
 * Isolates a critical section and applies a thread lock (```threading.Lock()```).
