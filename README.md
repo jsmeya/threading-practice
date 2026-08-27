@@ -12,3 +12,9 @@ A repo for personal practice of threading concepts.
 ### Mutual Exclusion
 * Introduces the concept of mutual exclusion through a banking transfer program.
 * Isolates a critical section and applies a thread lock (```threading.Lock()```).
+
+<br>
+
+### Thread Pooling
+* Introduces thread pooling through a ***fake*** sequential TCP port scanner.
+* Utilizes ```ThreadPoolExecutor``` to distribute port scans to a fixed pool of worker threads.
